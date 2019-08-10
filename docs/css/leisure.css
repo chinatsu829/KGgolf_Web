@@ -1,0 +1,265 @@
+.leisure_word{
+  display:inline-block;
+  position: relative;;/*絶対配置*/
+  color: white;/*文字は白に*/
+}
+.c-page-header > h1 {
+    width: 50%;
+    float: left;
+    padding-left: 1%;
+}
+
+.c-title-A {
+    font-size: 5em;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+
+.leisure_word > p {
+    font-size: 18px;
+}
+
+.leisuretop{
+  position: absolute;
+  z-index: -1;
+}
+
+.leisuretop img{
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+figure{
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.c-container {
+    padding-left: 8%;
+    overflow: hidden;
+    padding-right: 8%;
+    position: relative;
+}
+
+.c-container.inner-space {
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.c-bcg-gray {
+    background-color: #EFEFEF;
+}
+
+  .c-stickout {
+      margin-left: -1vw;
+      margin-right: -1vw;
+  }
+
+  .c-grids.gap-s {
+    margin-left: -2%;
+    margin-right: -2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.c-grids.gap-s .c-grid-1of3{
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left;
+}
+
+.c-grid-1of3 {
+  display: inline-block;
+    width: 33.333%;
+    -webkit-transition: opacity .4s;
+    transition: opacity .4s;
+}
+
+.c-grid-1of3 img {
+  vertical-align: middle;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.top-others-item {
+    text-align: center;
+    display: block;
+    padding: 30px 0;
+    margin: -30px 0;
+}
+
+.c-grid-1of3:hover{
+   opacity: 0.5; /* 25％ほど透明にする */
+}
+
+.top-others-item .c-title-D {
+    font-size: 1.5em;
+    padding: 7px 10px;
+  }
+
+
+  .c-title-D {
+    color: #fff;
+    font-size: 1.067em;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    padding: 12px 20px 10px;
+    background-color: #28B472;
+  }
+
+.top-others-item > h2 {
+    font-size: 1.7em;
+    margin: 30px 0 20px;
+}
+
+.top-others-item > h2:after {
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: #28B472;
+    display: block;
+    margin: 15px auto 0;
+}
+
+.c-grids.no-gap {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.c-relative {
+    position: relative !important;
+    overflow: hidden;
+}
+
+.c-grid-LofG {
+    width: 50%;
+    float: left;
+}
+
+.c-grid-LofG > .c-grid-inner-left {
+    padding: 90px 10% 90px 12%;
+}
+
+.pt-0 {
+    padding-top: 0 !important;
+}
+
+.c-stickout {
+    margin-left: -1vw;
+    margin-right: -1vw;
+}
+
+.c-title-D {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    padding: 12px 20px 10px;
+    background-color: #28B472;
+    margin-top: 0%;
+}
+
+.c-dlist-A > dt {
+    font-weight: 600;
+    line-height: 1.6;
+    width: 25em;
+    padding: 10px 0 15px 40px;
+    position: absolute;
+    font-size: 13px;
+}
+
+.c-dlist-A > dt:before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #28B472;
+    position: absolute;
+    top: 1.8em;
+    left: 20px;
+}
+
+.c-dlist-A > dt:first-child + dd {
+    border: none;
+    margin-right: 8%;
+}
+
+.c-dlist-A > dd {
+    padding: 25px 20px 15px 30em;
+    border-top: 1px solid #ccc;
+    color: #999;
+    font-size: 13px;
+}
+
+.c-grid-img-fit {
+    height: 100%;
+    right: 0;
+    float: left;
+    position: absolute;
+}
+
+.c-grid-SofG {
+    width: 40%;
+    margin-right: 8%;
+}
+
+.c-grid-SofG img {
+    width: 100%;
+  }
+
+  .c-dlist-A2 > dt {
+      font-weight: 600;
+      line-height: 2.5;
+      width: 10em;
+      padding: 10px 0 15px 40px;
+      position: absolute;
+      font-size: 15px;
+  }
+
+  .c-dlist-A2 > dt:before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: #28B472;
+      position: absolute;
+      top: 1.8em;
+      left: 20px;
+  }
+
+  .c-dlist-A2 > dt:first-child + dd {
+      border: none;
+      margin-right: 8%;
+  }
+
+  .c-dlist-A2 > dd {
+      padding: 15px 20px 15px 15em;
+      border-top: 1px solid #ccc;
+      color: #999;
+      font-size: 13px;
+    }
+
+    .big{
+      font-size: 2em;
+      color: #28B472;
+    }
+
+
+a{
+  color: #1a1a1a;
+  text-decoration: none;
+  background: none;
+}

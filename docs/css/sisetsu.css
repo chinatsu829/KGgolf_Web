@@ -1,0 +1,127 @@
+.sisetsu_word{
+  display:inline-block;
+  position: relative;;/*絶対配置*/
+  color: white;/*文字は白に*/
+}
+
+.c-page-header > h1 {
+    width: 50%;
+    float: left;
+    padding-left: 1%;
+}
+
+.c-title-A {
+    font-size: 5em;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+
+.sisetsu_word > p {
+    font-size: 18px;
+}
+
+.sisetsutop{
+  position: absolute;
+  z-index: -1;
+}
+
+.sisetsutop img{
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.c-stickout {
+    margin-left: -1vw;
+    margin-right: -1vw;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 90px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.c-grids.gap-20 {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.facilities-point-list {
+    margin-bottom: -40px;
+}
+
+.c-grids:before, .c-grids:after {
+    content: "";
+    display: table;
+}
+
+.c-grids.inline>.c-grid-1of2{
+ float: none;
+ display: inline-block;
+ vertical-align: top;
+}
+.c-grid.gap-20> .c-grid-1of2{
+　　　padding-left: 3%;
+　　  padding-right: 3%;
+  }
+
+  .c-grid-1of2{
+    float: left;
+min-height: 1px;
+padding-left: 5%;
+padding-right: 5%;
+    width: 49%;
+}
+
+.facilities-point-list > section > h2 {
+    color: #fff;
+    position: relative;
+}
+
+.facilities-point-list > section > h2 > span {
+    font-size: 2.133em;
+    line-height: 1;
+    letter-spacing: 0;
+    padding: 0 25px 40px;
+    position: absolute;
+    bottom: 0;
+}
+
+.facilities-point-list > section > h2 > span:before {
+    content: attr(data-entitle);
+    font-size: 0.406em;
+    letter-spacing: 1.5px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.facilities-point-list > section > p {
+    padding: 0px 10px 40px;
+    font-size: 14px;
+}
+
+.c-grid-1of2 > h2:after {
+    content: "";
+    width: 80px;
+    height: 3px;
+    background-color: #28B472;
+    display: block;
+    margin: 20px auto 0;
+}
+
+a{
+  color: #28B472;
+  text-decoration: none;
+  background: none;
+}
+
+
+.c-grid-1of2 img {
+    vertical-align: middle;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
