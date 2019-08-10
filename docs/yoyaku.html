@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<html lang="ja">
+
+<head>
+  	<meta charset="utf-8">
+  	<title>予約ページ</title>
+    <link rel="stylesheet" type="text/css" href="yotaku.css">
+    <link rel="stylesheet" type="text/css" href="temp.css">
+
+<body>
+<nav class="nav">
+ <ul class="menu_bar">
+   <li><a href="golf.html"><img src="logo.png" width="25%"></a></li>
+   <li><a href="golf.html">トップ</a></li>
+   <li><a href="des.html">ゴルフについて</a></li>
+   <li><a href="sisetsu.html">施設について</a></li>
+   <li><a href="leisure.html">レジャーについて</a></li>
+   <li><a href="yoyaku.html">予約する</a></li>
+ </ul>
+</nav>
+
+<div class=content>
+  <h1 class="c-title-A" data-entitle="To Reserve">
+    予約する
+  </h1>
+  <p>こちらのページでゴルフ、バーべキュー、キャンプの予約が可能です。</p>
+</div>
+
+
+<form>
+
+  <div class="item">
+    <label class="label">お名前</label>
+    <input class="inputs" type="text" name="name">
+  </div>
+
+  <div class="item">
+    <label class="label">電話番号</label>
+    <input class="inputs" type="tel" name="tel">
+  </div>
+
+  <div class="item">
+    <label class="label">メール<br>アドレス</label>
+    <input class="inputs" type="email" name="email">
+  </div>
+
+  <div class="item">
+    <p class="label">予約タイプ</label>
+    </div>
+    <form action="cgi-bin/abc.cgi" method="post">
+      <h2>
+        <input type="checkbox" name="riyu" value="1" checked="checked">ゴルフ
+        <input type="checkbox" name="riyu" value="2">バーベキュー
+        <input type="checkbox" name="riyu" value="3">キャンプ
+      </h2>
+    </from>
+
+  <div class="item">
+    <p class="label">予約したい日時</label>
+    </div>
+    <div class="nyuryoku">
+      <form action="cgi-bin/example.cgi" method="post">
+        <input type="datetime-local" name="datetime">
+      </from>
+    </div>
+
+  <div class="item">
+    <label class="label">ご意見</label>
+    <textarea class="inputs"></textarea>
+  </div>
+
+  <div class="btn-area">
+    <input type="submit" value="予約する"><input type="reset" value="リセット">
+  </div>
+
+</form>
+</body>
+</html>
